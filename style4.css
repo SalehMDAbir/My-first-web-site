@@ -1,0 +1,19 @@
+
+
+body{
+	background: url(Eastern3D.jpg);
+	background-size: cover;
+}
+
+.mainbox{
+	box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 8px;
+    background: white;
+    position: absolute;
+    padding:15px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+

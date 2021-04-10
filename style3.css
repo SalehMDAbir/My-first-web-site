@@ -1,0 +1,108 @@
+{
+
+	padding: 0;
+	margin: 0;
+}
+
+body{
+     margin:0;
+
+}
+.logopa{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.navbar{
+	background:lightblue;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.navbar ul{
+	list-style: none;
+	display: inline-flex;
+
+}
+.navbar ul li{
+	width: 200px;	
+	margin:0 16px;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+.shown,.navbar ul li:hover{
+	background:orange;
+	height:30px;
+    border-radius: 3px;
+}
+.newbars {
+	display: none;
+}
+.navbar ul li:hover .newbars{
+	display:block;
+	position: absolute;
+	background:green;
+	margin-top:16px;
+	margin-left: 18px;
+	color: black;
+	
+
+}
+.navbar ul li:hover .newbars ul{
+	display:block;
+	margin-left: -56px;
+	margin-right: -16px;
+
+ }
+ .navbar ul li:hover .newbars ul li{
+ 	border:1px solid white;
+ 	padding: 3px;
+ 	cursor: pointer;
+ }
+.phto{
+	margin-top:8px;
+	background-position: center;
+	width: 100%;
+}
+.seen,.table th:hover{
+    background:yellow;
+}
+.term{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.para p{
+	box-sizing: border-box;
+
+	width:300px;
+	height: 80px;
+	margin: 15px;
+	text-align: center;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5)
+}
+.para{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	cursor: pointer;
+}
+.pictures img{
+	border:2px solid orange;
+	margin:5px;
+	cursor: pointer;
+}
+.adres{
+	background-color: dodgerblue;
+	font-size: 18px;
+	color: white;
+
+}
+.adres p{
+   text-align: center;
+}
